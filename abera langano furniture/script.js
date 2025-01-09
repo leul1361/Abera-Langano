@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial text set
     textSets[0].classList.add('active');
 
-    // Change background image every 5 seconds
-    setInterval(changeBackgroundImage, 5000);
+    // Change background image every 8 seconds
+    setInterval(changeBackgroundImage, 8000);
 
     burger.addEventListener('click', () => {
         // Toggle Nav
